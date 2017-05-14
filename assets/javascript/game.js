@@ -47,19 +47,24 @@ function checkLetters(letter) {
       letterInWord = true;
     }
   }
-
+  
   if(letterInWord) {
     for(var i = 0; i < numBlanks; i++) {
       if(chosenWord[i] === letter) {
         blanksAndSuccesses[i] = letter;
       }
     }
-
   }else {
     numberOfGuesses--
-    //if(wrongGuesses.indexOf(letter) === -1) {
-    wrongGuesses.push(letter)
   }
+  
+  if(wrongGuesses.indexOf(letter) === -1) {
+        wrongGuesses.push(letter);
+  }else {
+    (wrongGuesses.indexOf(letter) === blanksAndSuccesses[i]) 
+    alert("You already guessed this letter");
+  }
+  
 }
 
 
