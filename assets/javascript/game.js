@@ -61,10 +61,9 @@ function checkLetters(letter) {
   if(wrongGuesses.indexOf(letter) === -1) {
         wrongGuesses.push(letter);
   }else {
-    (wrongGuesses.indexOf(letter) === blanksAndSuccesses[i]) 
+    (wrongGuesses.indexOf(letter) === wrongGuesses[i]) 
     alert("You already guessed this letter");
-  }
-  
+ }
 }
 
 
