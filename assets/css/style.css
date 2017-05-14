@@ -1,5 +1,5 @@
 div.row {
-	padding: 50px;
+	padding: 40px;
 }
 
 #heading {
@@ -25,6 +25,11 @@ div.row {
 
 #guesses-left, #wrong-guesses, #win-counter, #loss-counter {
 	font-size: 20px;
+}
+
+.park-img {
+	width: 250px;
+	height: 100px;
 }
 
 
