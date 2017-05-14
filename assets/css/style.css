@@ -1,0 +1,31 @@
+div.row {
+	padding: 50px;
+}
+
+#heading {
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+#game-rules {
+	font-size: 20px;
+}
+
+#word-blanks {
+	letter-spacing: 10px
+}
+
+.stats {
+	font-size: 18px;
+	border-style: solid;
+	border-color: #a9a9a9;
+	padding: 30px;
+}
+
+#guesses-left, #wrong-guesses, #win-counter, #loss-counter {
+	font-size: 20px;
+}
+
+
+
