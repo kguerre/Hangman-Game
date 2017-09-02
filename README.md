@@ -1,2 +1,2 @@
 # Hangman-Game
-Homework 3
+Try to guess which National Park I'm thinking of...
